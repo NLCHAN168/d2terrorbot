@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Discord bot to retrieve active terror zone",
   "main": "main.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/NLCHAN168/d2terrorbot/issues"
   },
-  "homepage": "https://github.com/NLCHAN168/d2terrorbot#readme"
+  "homepage": "https://github.com/NLCHAN168/d2terrorbot#readme",
+  "dependencies": {
+    "discord.js": "^14.5.0",
+    "dotenv": "^16.0.3"
+  }
 }
